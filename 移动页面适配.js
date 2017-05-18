@@ -3,7 +3,7 @@ function resetPage(){
 	var scale=ww/640;
 	document.body.style.zoom=scale;
 }
-resetPage();
+resetPage();//调取函数
 window.onresize=function (){
 	resetPage();
 }
