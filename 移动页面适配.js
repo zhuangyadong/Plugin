@@ -7,3 +7,5 @@ resetPage();//调取函数
 window.onresize=function (){
 	resetPage();
 }
+
+
